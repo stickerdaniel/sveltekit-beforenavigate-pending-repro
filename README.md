@@ -2,7 +2,7 @@
 
 `beforeNavigate` callbacks don't run for a link click or `goto` that starts while another client-side navigation is still pending. A guard that protects unsaved work can't cancel it, and the app leaves the page.
 
-Reported in [sveltejs/kit#ISSUE](https://github.com/sveltejs/kit/issues/ISSUE).
+Reported in [sveltejs/kit#17726](https://github.com/sveltejs/kit/issues/17726).
 
 ## By hand
 
